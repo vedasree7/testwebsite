@@ -8,8 +8,10 @@ body {
 header {
     background-color: #003366;
     color: #fff;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
@@ -20,17 +22,21 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    background-color: #fff;
+    color: #003366;
 }
 
 main {
@@ -54,10 +60,10 @@ main p {
 
 footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
     background-color: #003366;
     color: #fff;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
