@@ -1,69 +1,94 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-header {
-    background-color: #003366;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style-type: none;
+*{
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    border: 1px solid #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
 }
 
-nav ul li a:hover {
-    background-color: #fff;
-    color: #003366;
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
 }
 
-main {
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 160px);
-    background-color: #e0e0e0;
-    text-align: center;
 }
 
-main h1 {
-    font-size: 36px;
-    color: #333;
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
 }
 
-main p {
-    font-size: 24px;
-    color: #666;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #003366;
+ul li a{
+    text-decoration: none;
     color: #fff;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
 }
