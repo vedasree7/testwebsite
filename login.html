@@ -9,29 +9,33 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
+            <div class="icon">
+                <h2 class="logo">Shaastra</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="login">
-            <h1>Login</h1>
-            <form>
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <button type="submit">Login</button>
-            </form>
-        </section>
+        <div class ="form">
+            <h2>Login Here</h2>
+            <input type="email" name="email" placeholder="Enter Email Here">
+            <input type="password" name="" placeholder="Enter Password Here">
+            <button class="btnn"><a href="#">Login</a></button>
+
+            <p class="link">Don't have an account<br>
+            <a href="register.html">Sign up </a> here</a></p>
+        </div>
     </main>
-    <footer>
+    <div class = "contact">
         <p>Contact us at: <a href="mailto:contact@cnl2025.info">contact@cnl2025.info</a></p>
         <p>&copy; 2024 CNL2025. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
